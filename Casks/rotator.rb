@@ -1,9 +1,9 @@
 cask "rotator" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.11.3"
-  sha256 arm:   "99dd5a6f9115b3244048633795c1ed016cde812f6dcbfd1e327f97788035c99e",
-         intel: "ca5ab29e9a13a228a1e05cb5bc67bd8656deac24724d3d155558172aa589296f"
+  version "0.11.4"
+  sha256 arm:   "5967281b3b9f3675a65812f7cff430e222d91a47c13c6989f61fcaf1bc338aaf",
+         intel: "5b7d69f4536f17eb64342469ddae3acd44ba637c3bcd10831984b2fe0bd0ba24"
 
   url "https://github.com/mgorunuch/work-rotator-app/releases/download/v#{version}/Rotator_#{arch}.dmg"
   name "Rotator"
